@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton_weather"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="322dp"
+        android:layout_marginTop="609dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="61dp"
+        android:clickable="true"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton_addLocation"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="614dp"
+        android:layout_marginEnd="305dp"
+        android:layout_marginBottom="61dp"
+        android:clickable="true"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButtonFetchData"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="65dp"
+        android:clickable="true"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</RelativeLayout>

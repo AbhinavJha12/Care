@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "229877507022",
+    "project_id": "care-736b5",
+    "storage_bucket": "care-736b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229877507022:android:fbdd8c02c50af3d0fd419f",
+        "android_client_info": {
+          "package_name": "com.try1.caretry2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229877507022-ef14jk5bgvprk79bfuq94s0phvkoo57s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxdW85G1VdO4X_ymx3Axd4VIsVLOWkhVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229877507022-ef14jk5bgvprk79bfuq94s0phvkoo57s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
